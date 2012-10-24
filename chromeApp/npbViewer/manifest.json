@@ -1,0 +1,14 @@
+{
+  "name": "npbViewerForChrome",
+  "description": "プロ野球ビュアーC",
+  "version": "0.1",
+  "app": {
+    "launch": {
+      "local_path": "main.html"
+    }
+  },
+  "permissions": [
+ 	 "http://baseball.yahoo.co.jp/*",
+ 	 "*://twitter.com/*"
+  ]
+}

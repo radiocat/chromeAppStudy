@@ -1,0 +1,26 @@
+body{
+	text-align:center;
+}
+.main-area {
+	position:relative;
+}
+.panel {
+	border: 2px solid #6699CC;
+	width : 50px;
+}
+.panel-area{
+	position:relative;
+	left: 35%;
+	float: left;
+}
+.count-info{
+	position:relative;
+	left: 35%;
+	float: left;
+	text-align: left;
+	margin-left: 10px;
+}
+.info{
+	clear: both;
+	padding-top: 10px;
+}

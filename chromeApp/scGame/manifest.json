@@ -1,0 +1,14 @@
+{
+  "name": "scGameApp",
+  "description": "ゲーム作成お勉強",
+  "version": "0.1",
+  "icons": {
+ 	 "16": "icon_16.png",
+    "128": "icon_128.png"
+  },
+  "app": {
+    "launch": {
+      "local_path": "main.html"
+    }
+  }
+}

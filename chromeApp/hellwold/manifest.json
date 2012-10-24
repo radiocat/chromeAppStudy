@@ -1,0 +1,10 @@
+{
+  "name": "SamplePackagedApp",
+  "description": "Packaged Appのサンプル",
+  "version": "0.1",
+  "app": {
+    "launch": {
+      "local_path": "main.html"
+    }
+  }
+}
