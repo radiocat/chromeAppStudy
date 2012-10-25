@@ -46,7 +46,7 @@ $(document).ready(function(){
 	// パネルの表示をセットする（16だけ白にする）
 	function setPanel(i){
 		var text = flgPanelArray[i];
-		if(text == 16){
+		if(text == maxSize){
 			$('#' + i).css("background-color", markOffBgcolor);
 		}else{
 			$('#' + i).css("background-color", markOnBgcolor);
@@ -66,7 +66,7 @@ $(document).ready(function(){
 	}
 	// 空きパネルかどうかをチェックする
 	function checkOffPanel(i){
-		if(flgPanelArray[i] == 16) return true;
+		if(flgPanelArray[i] == maxSize) return true;
 		return false;
 	}
 	// クリアのメッセージを表示する
